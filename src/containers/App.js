@@ -36,6 +36,14 @@ class App extends Component {
         />)
     }
 
+    const movieList_2 = this.state.movieDB.map((movie) =>
+      <Movie
+        moviePoster={movie.poster}
+        movieTitle={movie.title}
+        movieTitleHover={movie.title}
+        launch={movie.launch}
+      />
+    );
 
     return (
       <div className="App" >
@@ -44,7 +52,7 @@ class App extends Component {
           <Menu />
           <div className="container p-5">
             <div className="row">
-              {movieList}
+              {movieList_2}
             </div>
             <CircleDot />
           </div>
