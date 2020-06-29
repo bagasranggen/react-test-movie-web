@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const menu = () => {
   return (
     <div className="container text-center" id="menu">
