@@ -16,7 +16,7 @@ const movie = props => (
           <small className="font-semibold text-red m-0 p-1">LAUNCH</small>
         </div>
         <div className="position-absolute plus btn-more bg-orange pt-2 pl-3 pr-2">
-          <a href="#"><h6 className="font-semibold h3 text-white m-0">+</h6></a>
+          <a href="/"><h6 className="font-semibold h3 text-white m-0">+</h6></a>
         </div>
       </div>
       <div className="card-body">
